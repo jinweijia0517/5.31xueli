@@ -1,0 +1,340 @@
+/*header部分代码*/
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	height: 100px;
+}
+.title{
+	float: left;
+	width:170px;
+	height:39px;
+	font-size:40px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	margin-top: 33px;
+}
+.nav{
+	float: left;
+	margin: 42px;
+}
+.nav li{
+	float: left;
+	width: 100px;
+	height: 18px;
+	font-size: 18px;
+}
+.nav a{
+	color: rgba(5,5,5,1);
+}
+.nav a:hover{
+	border-bottom: 2px solid rgba(0,164,255,1);
+}
+.form{
+	float: left;
+	margin-top: 31px;
+	margin-left: 150px;
+}
+.search{
+	float: left;
+	width: 320px;
+	height: 13px;
+	border: 1px solid rgba(0,164,255,1);
+	padding: 13px 19px 12px;
+
+}
+.submit{
+	float: right;
+	width: 51px;
+	height: 40px;
+	background: rgba(0,164,255,1) url(images/search.png) no-repeat center;
+}
+.head-last{
+	float: right;
+	padding-top: 44px;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(102,102,102,1);
+}
+
+/*banner部分代码*/
+.banner{
+	background-color: rgba(28,3,108,1);
+	height: 420px;
+	width: 100%;
+}
+.back{
+	background: url("images/banner2.png") no-repeat center;
+}
+.banner ul{
+	width: 190px;
+	height: 420px;
+	background: rgba(0,0,0,0.3);
+	padding-left: 20px;
+
+}
+.banner a{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(229,229,229,1);
+	line-height: 44px;
+}
+.banner a:hover{
+	color: rgba(0,180,255,1);
+}
+/*banner-bottom代码*/
+.banner-bottom{
+	width: 1200px;
+	height:60px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	margin: 0 auto;
+}
+.banner-bottom ul{
+	float: left;
+	padding: 21px 34px;
+}
+.nav-bottom li{
+	float: left;
+	text-align: center;
+	width: 120px;
+	font-size:16px;
+	border-right: 1px solid rgba(191,191,191,1);
+}
+.nav-bottom a{
+	color: rgba(5,5,5,1);
+}
+.nav-bottom .last{
+	border: none;
+}
+.nav-bottom a:hover{
+	color:rgba(0,164,255,1);
+	font-weight:bold;
+}
+.banner-bottom p{
+	float: right;
+	font-size: 14px;
+	padding-right: 61px;
+	padding-top: 21px;
+	color:rgba(0,164,255,1);
+}
+/*精品推荐代码*/
+.recommend{
+	position: relative;
+	margin-top: 35px;
+	height: 600px;
+}
+.name{
+	float: left;
+	height: 20px;
+	padding-bottom: 20px;
+}
+.name a{
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.goall{
+	float: right;
+	position: absolute;
+	right: 30px;
+	font-size:12px;
+	font-weight:400;
+	padding-bottom: 20px;
+}
+.goall a{
+	color:rgba(165,165,165,1);
+}
+.product{
+	float: left;
+	margin-bottom: 15px;
+}
+.product li{
+	float: left;
+	width: 228px;
+	height: 270px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+.product img{
+	width: 233px;
+	height: 155px;
+}
+.details{
+	float: left;
+	position: relative;
+	top: -5px;
+	height: 115px;
+	width: 233px;
+	box-shadow:0px 0px 5px 0px rgba(118,118,118,0.5);
+}
+
+.product .one{
+	padding-left: 0;
+}
+.product .five{
+	padding-right: 0;
+}
+.names{
+	text-align: left;
+	position: absolute;
+	left: 25px;
+	top: 20px;
+	font-size:14px;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	width:185px;
+	height:35px;
+}
+.now{
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	font-size:12px;
+	color: #606060;
+}
+.now span{
+	color: #FF7C2D;
+}
+
+/*前端开发工程师*/
+.process{
+	position: relative;
+	margin-top: 40px;
+}
+.degree{
+	float: left;
+	padding-left: 300px;
+}
+.degree li{
+	float: left;
+	padding-right: 60px;
+	text-align: center;
+}
+.degree a{
+	color:rgba(165,165,165,1);
+}
+.degree a:hover{
+	color:rgba(0,164,255,1);
+}
+.project{
+	float: left;
+}
+.project li{
+	float: left;
+	width: 228px;
+	height: 270px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+.project img{
+	width: 233px;
+	height: 155px;
+}
+.project .one{
+	padding-left: 0;
+}
+.project .five{
+	padding-right: 0;
+}
+
+/*牛人代码*/
+.people{
+	position: relative;
+	padding-top: 38px;
+}
+.people ul{
+	float: left;
+	padding-top: 30px;
+}
+.people li{
+	position: relative;
+	float: left;
+	padding-left: 15px;
+}
+.people li img{
+	height: 320px;
+}
+.word-a{
+	position: absolute;
+	top:100px;
+	left:25px;
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(249, 225, 3, 1);
+}
+.word-b{
+	position: absolute;
+	top:140px;
+	left:25px;
+	font-size: 27px;
+	color: white;
+}
+.word-c{
+	position: absolute;
+	left: 30px;
+	bottom: 110px;
+	font-size: 13px;
+	border: 1px solid rgba(249,225,3,1);
+	text-align: center;
+	font-weight:400;
+	color:rgba(249,225,3,1);
+	line-height:20px;
+}
+.man{
+	position: absolute;
+	bottom: 90px;
+	left: 30px;
+	font-size: 18px;
+
+}
+.ability{
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+}
+
+/*末尾代码*/
+.final{
+	position: relative;
+	margin-top: 40px;
+}
+.fin-left{
+	float: left;
+}
+.fin-right{
+	float: right;
+}
+.educate{
+	font-size:36px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	line-height:21px;
+	padding: 10px;
+}
+.aim{
+	font-size:12px;
+	color:rgba(102,102,102,1);
+	line-height:18px;
+	padding: 10px;
+}
+.app{
+	border: 1px solid rgba(0,164,255,1);
+	padding:10px 28px;
+}
+.fin-right ul{
+	float: left;
+	width: 180px;
+}
+.same p{
+	line-height:21px;
+	color: #333333;
+	font-size:16px;
+	color:rgba(51,51,51,1);
+}
+.same a{
+	color: #333333;
+	font-size: 12px;
+}
